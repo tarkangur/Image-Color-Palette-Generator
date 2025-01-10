@@ -1,0 +1,135 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Başlıklar */
+h1, h2 {
+    color: #444444;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Konteyner */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Elemanları */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="file"] {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Sonuç Görseli */
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    margin: auto;
+}
+
+}
+
+/* Renk Kutuları */
+.colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.color-box span {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #eeeeee;
+}
+
+.flash-messages {
+    margin: 20px 0;
+}
+
+.flash-message {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flash-message.success {
+    background-color: #4caf50;
+}
+
+.flash-message.error {
+    background-color: #f44336;
+}
+
+.file-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
